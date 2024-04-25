@@ -4,12 +4,11 @@ global.dfail('admin', m, conn)
 throw false
 }
 let pesan = args.join` `
-let oi = `*🛍️https://chat.whatsapp.com/CCDGO1lIuH3Ggr4nA44cbY* ${pesan}`
-let teks = `*⬇️Venta de 🤖 ,regedits 🖥️📱 ,sensibilidades📱 ,+ 30 metodos ,cuentas ff y mass⬇️*
- ${oi}\n\n🛍️ *@Ale.izn_20:*\n`
+let oi = `*🌱 ACTIVENSE PLANTITAS🌱* ${pesan}`
+let teks = `*🌺si deseas comprar un bot para tu grupo comunicate +5493873448175🌺*\n\n💖 ${oi}\n\n❄️ *@aty_eri_::*\n`
 for (let mem of participants) {
-teks += `⭐ @${mem.id.split('@')[0]}\n`}
-teks += `➤ 𝐑𝐞𝐚𝐝𝐳 𝐀𝐥𝐞𝐢𝐳𝐧`
+teks += `🍄 @${mem.id.split('@')[0]}\n`}
+teks += `➤ 𝐏𝐫𝐢𝐧𝐜𝐞𝐛𝐨𝐭𝟐`
 conn.sendMessage(m.chat, { text: teks, mentions: participants.map(a => a.id) }, )
 }
 handler.help = ['tagall <mesaje>','invocar <mesaje>']
